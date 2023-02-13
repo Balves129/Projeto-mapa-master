@@ -128,7 +128,7 @@ a:hover{
   }
 
 main{
-  background: linear-gradient(140deg, #012340 50%, #025939);
+  background: linear-gradient(to bottom, #012340 50%, #025939);
     height: 200vh;
 }
   main img{
