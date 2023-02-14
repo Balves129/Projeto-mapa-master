@@ -128,10 +128,11 @@ a:hover{
   }
 
 main{
-  background: linear-gradient(to bottom, #012340 50%, #025939);
-    height: 200vh;
+  background: linear-gradient(to bottom, #012340, #025939);
+    height: 400vh;
+    z-index: -1;
 }
-  main img{
+  main .gps{
     display: flex;
     padding: 10px 20px;
     height: 36%;
@@ -139,7 +140,26 @@ main{
     left: 70rem;
     bottom: 8rem;
     background-size: contain;
+    
   }
+.PlantaShop{
+  height: 20vw;
+  margin-top: -30rem;
+  margin-left: 55rem;
+}
+.enft{
+  display: flex;
+  height: 20vw;
+  width: 20vw;
+  background-color: #0a4b5f;
+  clip-path: circle(50%);
+  position: absolute;
+  top: 78rem;
+  filter: opacity(0.6);
+  
+}
+
+
 .in{
   color: #ff3b8c;
 }
@@ -172,7 +192,7 @@ span{
     .mobile-menu{
         display: block;
     }
-    main img{
+    main .gps{
       transition: 3s ease-in-out;
       display: flex;
       width: 54%;
@@ -260,18 +280,40 @@ main h2{
 /* edição numeros */
 
 .title{
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
+    flex-direction: column;
+
+    gap: 5rem;
+    height: 120px;
+    padding: 1rem 5rem;
+
+
+}
+.caixa{
+  position: relative;
+  top: 56px;
+  border: 1.5px solid #707772;
+  box-shadow: 2px 2px 5px 3px;
+}
+.caixa p{
+  position: relative;
+  margin-top: -5rem;
+  height: fit-content;
+}
+.caixa h3{
+  margin-top: 1.2vh;
+  height: fit-content;
 }
 
 
 .title h3{
-    font-size: 36px;
+    font-size: 45px;
     margin-top: 10px;
     font-family: Verdana;
     font-weight: bold;
 }
-.title p{
+.title h5{
     font-family: verdana;
     font-weight: normal;
    
@@ -299,36 +341,62 @@ main h2{
         margin-left: -1.7rem;
 
     }
+    .PlantaShop{
+      position: absolute;
+      right: 22rem;
+      top: 110rem;
+      height: 30vw;
+    }
+
     main h2{
       margin-left: 8rem;
 
     }
     .number{
         display: inline-flex;
-        gap: 30px;
-        padding: 10px 10px;
+        padding: 1px 1px;
         position: absolute;
-        left: -8rem;
         top: 14rem;
+        gap: 3rem;
+        margin: 4rem 50rem;
+        width: 10vw;
     }
-    .number{
-        display: inline-flex;
-        gap: 2rem;
-        padding: 5px;
-        margin: 50px 50px;
+    .caixa h3{
+      margin-left: -4.5rem;
     }
+    .caixa{
+      border-radius: 5px;
+      font-size: 15px;
+      width: 10.8rem;
+      position: relative;
+      right: 8.3rem;
+      gap: 1rem;
+    }
+
+
     .sobre{
+      position: absolute;
       width: 50vw;
       margin-right: 1rem;
       color: #fff;
       margin: 15rem 6rem;
-      
+      z-index: 2;
+    }
+    .enft{
+      position: absolute;
+      background-color: #0a4b5f;
+      clip-path: circle(50%);
+      top: 60rem;
+      width: 30vw;
+      margin-left: 10rem;
+      filter: opacity(0.6);
+      z-index: 1;
+    
     }
 
-
-
-
-
+}
+@media only screen and (max-width: 1800px){
+  
 
 }
 /* 09-02-23 */
