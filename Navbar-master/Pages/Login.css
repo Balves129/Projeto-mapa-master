@@ -12,10 +12,12 @@ a{
     color: black;
     text-decoration: none;
     font-size: 20px;
+     
 }
 a:hover{
-    border-bottom: 1px #000 solid;
-    transition: 2s ease-in-out;
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+    color: rgb(98, 190, 218);
 }
 
 .rodape {
@@ -30,7 +32,7 @@ a:hover{
 img{
     background-size: cover;
     background-repeat: no-repeat;
-    
+   
 }
 .btn{
     background: linear-gradient(to left,#1cdb92, #138fb4);
@@ -47,5 +49,6 @@ img{
     transition: .2s ease-in-out;
     background: linear-gradient(to right,#13a1c5, #0e82b8);
     border: none;
+    transform: scale(1.1);
     
 }

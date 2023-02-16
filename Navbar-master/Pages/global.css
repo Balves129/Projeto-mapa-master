@@ -8,8 +8,8 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-
-    background: linear-gradient(180deg, rgb(102, 194, 69) 0%, rgb(69, 44, 167) 100%);
+    overflow-x: hidden;
+    background: linear-gradient(180deg, #4b1bbd, #2c70a7);
 }
 
 main{
@@ -32,8 +32,9 @@ main{
     width: 497px;
     height: 697px;
     
-    background-color: rgba(109, 191, 112, 0.72);
+    background-color: rgba(107, 114, 108, 0.473);
     border-radius: 30px;
+    box-shadow: 2px 2px 8px 1px;
 }
 
 .titulo{
@@ -47,7 +48,9 @@ main{
     
     width: 497px;
     height: 697px;
-
+    background: linear-gradient(#4bb8b2, #dde4e6 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .blocbranco{
@@ -73,7 +76,7 @@ form{
     display: flex;
     justify-content: center;
     flex-direction: column;
-
+    
     height: 310px;
     width: 283px;
 

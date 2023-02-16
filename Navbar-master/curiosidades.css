@@ -1,5 +1,6 @@
 .faq {
-    text-align:justify;
+    display: flex;
+    
     font-size: 18px;
 }
 
@@ -7,7 +8,9 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 800;
     font-size: 40px;
-    margin-left: 3rem;
+    margin-left:60rem;
+    
+    
    
 }
 
@@ -15,9 +18,11 @@
     margin: 10px auto;
     width: 100%;
     max-width: 750px;
-
+    
     position: absolute;
-    left: 9rem;
+    margin-left: 60rem;
+    margin-top: 4rem;
+    
 }
 
 .accordion li {
