@@ -84,3 +84,46 @@ input[type="radio"] {
 .faq small {
     font-size: 15px;
 }
+
+/* section */
+.Inov{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding: 2rem 6rem;
+    gap: 7rem;
+}
+
+.Inov h1{
+    font-size: 20px;
+    transform: scale(2.1);
+    font-weight:400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #e64e33;
+    margin: 4rem 14rem;
+    width: 220px;
+    position: relative;
+    border: blue 2px solid;
+}
+.Inov h5{
+    font-size: 24px;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: .6;
+    padding: 4rem ;
+}
+.Inov .card-1 , .card-2, .card-3{
+   border: #1a0602 2px solid;
+   padding: 14rem;
+   width: 30px;
+   margin: 5rem;
+}
+.inov-card{
+    border: #e64e33 2px solid;
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+}
