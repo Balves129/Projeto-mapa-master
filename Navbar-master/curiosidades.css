@@ -1,3 +1,5 @@
+
+
 .faq {
     display: flex;
     
@@ -91,8 +93,7 @@ input[type="radio"] {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-    padding: 2rem 6rem;
-    gap: 7rem;
+    padding: 1rem 4rem;
 }
 #span{
     color: #000000;
@@ -110,11 +111,13 @@ input[type="radio"] {
     
 }
 .Inov h5{
-    font-size: 24px;
+    font-size: 23px;
     font-weight: lighter;
     font-family:Arial, Helvetica, sans-serif;
     opacity: .6;
-    padding: 4rem ;
+    padding: 2rem;
+    position: relative;
+    left: 8rem;
 }
 /* .Inov .card-1{
    border: #1a0602 2px solid;
@@ -125,8 +128,8 @@ input[type="radio"] {
    background-size: contain;
    background-repeat: no-repeat;
    
-}
-.inov-card{
+}*/
+/* .inov-card{
     border: #e64e33 2px solid;
     width: 30vw;
     height: 90vh;
@@ -158,4 +161,41 @@ input[type="radio"] {
 .card-1:hover{
     filter: drop-shadow(0 0 0.75rem crimson);
     transition: .5s ease;
+}
+/* teste dos cards */
+.card, .card2, .card3, .card4{
+    background-color: dodgerblue;
+    color: white;
+    padding: 6rem ;
+    height: 4rem;
+  }
+.cards{
+    
+    max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+  position: relative;
+  top: 22rem;
+  right: 25rem;
+}
+.card{
+    background-image: url(/evento.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(1.5);
+    border-radius: 4px;
+    box-shadow: 2px 3px 2px;
+
+   font-size: 20px;
+   font-weight: 700;
+   
+}
+@media (min-width:600px){
+    .cards{grid-template-columns: repeat(2,1fr);}
+    
+}
+@media (min-width:900px){
+    .cards{grid-template-columns: repeat(2,1fr);}
+    
 }
